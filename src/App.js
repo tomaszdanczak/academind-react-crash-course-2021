@@ -8,13 +8,13 @@ function App() {
   return (
     <Layout>
       <Switch>
-        <Route path="/" exact>
+        <Route path={`${process.env.PUBLIC_URL}/`} exact>
           <AllMeetupsPage />
         </Route>
-        <Route path="/new-meetup">
+        <Route path={`${process.env.PUBLIC_URL}/new-meetup`}>
           <NewMeetupPage />
         </Route>
-        <Route path="/favorites">
+        <Route path={`${process.env.PUBLIC_URL}/favorites`}>
           <FavoritesPage />
         </Route>
       </Switch>

@@ -12,14 +12,15 @@ export default function MainNavigation() {
       <nav>
         <ul>
           <li>
-            <Link to="/">All Meetups</Link>
-          </li>
-          +
-          <li>
-            <Link to="/new-meetup">Add New Meetup</Link>
+            <Link to={`${process.env.PUBLIC_URL}/`}>All Meetups</Link>
           </li>
           <li>
-            <Link to="/favorites">
+            <Link to={`${process.env.PUBLIC_URL}/new-meetup`}>
+              Add New Meetup
+            </Link>
+          </li>
+          <li>
+            <Link to={`${process.env.PUBLIC_URL}/favorites`}>
               My Favorites
               <span className={classes.badge}>{totalFavorites}</span>
             </Link>
