@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/academind-react-crash-course-2021/static/css/main.14ed0e69.chunk.css",
-    "main.js": "/academind-react-crash-course-2021/static/js/main.bf4e71af.chunk.js",
-    "main.js.map": "/academind-react-crash-course-2021/static/js/main.bf4e71af.chunk.js.map",
+    "main.js": "/academind-react-crash-course-2021/static/js/main.c3cb74f9.chunk.js",
+    "main.js.map": "/academind-react-crash-course-2021/static/js/main.c3cb74f9.chunk.js.map",
     "runtime-main.js": "/academind-react-crash-course-2021/static/js/runtime-main.9ec65519.js",
     "runtime-main.js.map": "/academind-react-crash-course-2021/static/js/runtime-main.9ec65519.js.map",
     "static/js/2.9763a004.chunk.js": "/academind-react-crash-course-2021/static/js/2.9763a004.chunk.js",
@@ -15,6 +15,6 @@
     "static/js/runtime-main.9ec65519.js",
     "static/js/2.9763a004.chunk.js",
     "static/css/main.14ed0e69.chunk.css",
-    "static/js/main.bf4e71af.chunk.js"
+    "static/js/main.c3cb74f9.chunk.js"
   ]
 }
